@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Title</title>
+  </head>
+  <body>
+    <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="../static/script.js"></script>
+    <h3 class="my-2">Add Money</h3>
+    <input
+      id="payment_field"
+      type="text"
+      class="form-control my-2"
+      placeholder="Enter Amount here"
+    />
+    <div class="container text-center">
+      <!-- <button onclick="paymentStart()" class="btn btn-success mt-3">PAY</button> -->
+      <!-- <button onclick="sendOtp('+919816321205')" class="btn btn-success mt-3"> -->
+        <button onclick="paymentStart()" class="btn btn-success mt-3">Pay</button>
+        Pay
+      </button>
+    </div>
+  </body>
+</html>
